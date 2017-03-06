@@ -2,7 +2,7 @@
 # Game graphic interface #
 ##########################
 
-from Tkinter import *
+from tkinter import *
 from random import *
 import time
 from random import *
@@ -411,7 +411,7 @@ def AI(mat):
         return max(score)
 
     def rotate(mat):
-        return zip(*mat[::-1])
+        return list(zip(*mat[::-1]))
    
     def prefer_corner(mat):
         score = [0,0,0,0]
