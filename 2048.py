@@ -2,10 +2,14 @@
 # Game graphic interface #
 ##########################
 
-from tkinter import *
+# Depending on the platform the package may be called tkinter or Tkinter
+try:
+  from tkinter import *
+except
+  from Tkinter import *
+  
 from random import *
 import time
-from random import *
 from copy import deepcopy
 
 SIZE = 500
