@@ -5,7 +5,7 @@
 # Depending on the platform the package may be called tkinter or Tkinter
 try:
   from tkinter import *
-except
+except:
   from Tkinter import *
   
 from random import *
