@@ -1,8 +1,7 @@
 # 2048-AI
-A implementation of the minimax algorithm to play 2048
 
-This project was inspired by the hugely popular mobile game 2048. It allows you to play the 2048 game or watch an implementation of the minimax algorithm decide the best moves.
+This project was is an implementation of the hugely popular mobile game 2048. 
 
-In play mode you can control the came using WASD. 
+It has a play mode where the user can play the game using WASD controls. 
 
-In AI mode any key triggers the computer to take a move.
+It has an AI mode where any key triggers the inbuilt AI to take a move. The AI uses an implentation of the minimax algorithm from game theory.
